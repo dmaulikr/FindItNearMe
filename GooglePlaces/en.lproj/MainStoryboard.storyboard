@@ -1,24 +1,248 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1906" systemVersion="11A511" targetRuntime="iOS.CocoaTouch" nextObjectID="6" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BkA-uK-m5b">
     <dependencies>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="902"/>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <scene sceneID="5">
+        <!--View Controller - Home-->
+        <scene sceneID="Lem-Kb-VK1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                <viewController id="FAW-hY-NC1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6gD-nT-X3f">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="list-item.png" id="zYq-xz-Jbh">
+                                <rect key="frame" x="0.0" y="-73" width="320" height="644"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FindItNearMe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VY5-Vk-SZy">
+                                <rect key="frame" x="20" y="83" width="280" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A simple app you can use to find useful places near you!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L1c-gU-2MA">
+                                <rect key="frame" x="27" y="208" width="280" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attention! This App requires internet connection at ALL times" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iOz-eO-SdY">
+                                <rect key="frame" x="34" y="309" width="266" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Home" id="fAs-4y-M9K"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ae8-G5-5Sl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="792" y="-464"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="aRA-8V-zcZ">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="BkA-uK-m5b" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="ihW-Xe-Omm">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ClU-Yu-Rgu" kind="relationship" relationship="viewControllers" id="Odl-9l-zwY"/>
+                        <segue destination="2" kind="relationship" relationship="viewControllers" id="iC2-EH-YPP"/>
+                        <segue destination="Gvy-PN-fX7" kind="relationship" relationship="viewControllers" id="U0k-M8-KKV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="soU-5B-SbC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-270" y="132"/>
+        </scene>
+        <!--Share View Controller - Share With All Your Friends!-->
+        <scene sceneID="ZRA-LK-PSf">
+            <objects>
+                <viewController id="Lo9-PY-Byx" customClass="ShareViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zcK-Dv-b3V">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="list-item.png" id="1Es-Tn-u7S">
+                                <rect key="frame" x="1" y="66" width="320" height="527"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UkL-vE-c4W">
+                                <rect key="frame" x="8" y="98" width="305" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="FaceBookShareButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareToFacebook:" destination="Lo9-PY-Byx" eventType="touchUpInside" id="4Mp-lN-vuf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="axt-YM-tAl">
+                                <rect key="frame" x="48" y="166" width="225" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="TwitterShareButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareToTwitter:" destination="Lo9-PY-Byx" eventType="touchUpInside" id="iGg-uG-zOm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3b0-aY-4w3">
+                                <rect key="frame" x="43" y="241" width="236" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Email" backgroundImage="button.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareToEmail:" destination="Lo9-PY-Byx" eventType="touchUpInside" id="hMs-nr-Z1s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2K1-u0-0aX">
+                                <rect key="frame" x="212" y="319" width="88" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Email Me" backgroundImage="button.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emailMe:" destination="Lo9-PY-Byx" eventType="touchUpInside" id="kb3-It-9q2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Send me your thoughts!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xph-dD-4pF">
+                                <rect key="frame" x="20" y="325" width="184" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Share With All Your Friends!" id="LBt-OL-sRF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="19h-wo-KKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808" y="724"/>
+        </scene>
+        <!--View Controller - Map-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Xha-Br-9yh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Restaurant" id="sCw-Fg-P6h">
+                                        <connections>
+                                            <action selector="toolBarButtonPress:" destination="2" id="ov0-b1-9Qg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Cafe" id="TzZ-Vf-1wb">
+                                        <connections>
+                                            <action selector="toolBarButtonPress:" destination="2" id="v5O-IB-YOl"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Florist" id="pcV-be-z8l">
+                                        <connections>
+                                            <action selector="toolBarButtonPress:" destination="2" id="bMY-wP-zc5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="ATM" id="hHO-X1-wBt">
+                                        <connections>
+                                            <action selector="toolBarButtonPress:" destination="2" id="F2y-L5-AFg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Park" id="LXw-sK-KAd">
+                                        <connections>
+                                            <action selector="toolBarButtonPress:" destination="2" id="xs8-D6-5zA"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="fbl-Qj-L6n">
+                                <rect key="frame" x="0.0" y="36" width="320" height="397"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="map.png" id="AC4-ef-2YY"/>
+                    <navigationItem key="navigationItem" id="Vas-pK-o3f"/>
+                    <connections>
+                        <outlet property="mapView" destination="fbl-Qj-L6n" id="HMS-qz-7FK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="799" y="113"/>
+        </scene>
+        <!--Navigation Controller - Home-->
+        <scene sceneID="GsB-Ea-LeN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ClU-Yu-Rgu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="home.png" id="LrH-Be-cYH"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xCF-SY-w0m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FAW-hY-NC1" kind="relationship" relationship="rootViewController" id="0te-vN-jk8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vQg-1h-WrH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="-464"/>
+        </scene>
+        <!--Navigation Controller - Share-->
+        <scene sceneID="1mQ-pq-iiJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gvy-PN-fX7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Share" image="63-runner.png" id="uTd-Ll-MNM"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eFf-AK-5qQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Lo9-PY-Byx" kind="relationship" relationship="rootViewController" id="n0V-tQ-6g9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8W3-rY-XmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="282" y="724"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="63-runner.png" width="18" height="25"/>
+        <image name="FaceBookShareButton.png" width="224" height="40"/>
+        <image name="TwitterShareButton.png" width="224" height="40"/>
+        <image name="button.png" width="295" height="48"/>
+        <image name="home.png" width="30" height="30"/>
+        <image name="list-item.png" width="320" height="96"/>
+        <image name="map.png" width="26" height="21"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

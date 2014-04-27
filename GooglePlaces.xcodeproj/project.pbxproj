@@ -15,22 +15,56 @@
 		5669C0FF154FC64F0092D780 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669C0FE154FC64F0092D780 /* AppDelegate.m */; };
 		5669C102154FC64F0092D780 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5669C100154FC64F0092D780 /* MainStoryboard.storyboard */; };
 		5669C105154FC64F0092D780 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669C104154FC64F0092D780 /* ViewController.m */; };
+		5669C110154FCA6D0092D780 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669C10F154FCA6D0092D780 /* MapKit.framework */; };
+		5669C112154FCA770092D780 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669C111154FCA770092D780 /* CoreLocation.framework */; };
+		56E5594A15569D4D00C1177A /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E5594915569D4D00C1177A /* MapPoint.m */; };
+		8800D20118F06A5F00D6EDEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8800D20018F06A5F00D6EDEB /* Images.xcassets */; };
+		8800D20318F06A8000D6EDEB /* list-item.png in Resources */ = {isa = PBXBuildFile; fileRef = 8800D20218F06A8000D6EDEB /* list-item.png */; };
+		8800D20618F06CBE00D6EDEB /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8800D20518F06CBE00D6EDEB /* ShareViewController.m */; };
+		8800D20818F06D3400D6EDEB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8800D20718F06D3400D6EDEB /* MessageUI.framework */; };
+		8800D20A18F06D4300D6EDEB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8800D20918F06D4300D6EDEB /* Social.framework */; };
+		8800D20C18F06E3B00D6EDEB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8800D20B18F06E3B00D6EDEB /* button.png */; };
+		8800D20F18F06E7C00D6EDEB /* FaceBookShareButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8800D20D18F06E7C00D6EDEB /* FaceBookShareButton.png */; };
+		8800D21018F06E7C00D6EDEB /* TwitterShareButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8800D20E18F06E7C00D6EDEB /* TwitterShareButton.png */; };
+		880509FF18F075630015069E /* GreenNavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 880509FE18F075630015069E /* GreenNavBar.png */; };
+		88050A0118F075730015069E /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 88050A0018F075730015069E /* home.png */; };
+		88050A0318F0757E0015069E /* 63-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 88050A0218F0757E0015069E /* 63-runner.png */; };
+		88050A0518F075A80015069E /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 88050A0418F075A80015069E /* map.png */; };
+		88050A0718F076180015069E /* TheTabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 88050A0618F076180015069E /* TheTabBar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5669C0EA154FC64F0092D780 /* GooglePlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5669C0EA154FC64F0092D780 /* FindItNearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindItNearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5669C0EE154FC64F0092D780 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5669C0F0154FC64F0092D780 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5669C0F2154FC64F0092D780 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5669C0F6154FC64F0092D780 /* GooglePlaces-Info.plist */ = {isa = PBXFileReference; path = "GooglePlaces-Info.plist"; sourceTree = "<group>"; };
+		5669C0F6154FC64F0092D780 /* GooglePlaces-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GooglePlaces-Info.plist"; sourceTree = "<group>"; };
 		5669C0F8154FC64F0092D780 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5669C0FA154FC64F0092D780 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5669C0FC154FC64F0092D780 /* GooglePlaces-Prefix.pch */ = {isa = PBXFileReference; path = "GooglePlaces-Prefix.pch"; sourceTree = "<group>"; };
-		5669C0FD154FC64F0092D780 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5669C0FC154FC64F0092D780 /* GooglePlaces-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GooglePlaces-Prefix.pch"; sourceTree = "<group>"; };
+		5669C0FD154FC64F0092D780 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5669C0FE154FC64F0092D780 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5669C101154FC64F0092D780 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5669C103154FC64F0092D780 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		5669C103154FC64F0092D780 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5669C104154FC64F0092D780 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5669C10F154FCA6D0092D780 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5669C111154FCA770092D780 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		56E5594815569D4D00C1177A /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		56E5594915569D4D00C1177A /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		8800D20018F06A5F00D6EDEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8800D20218F06A8000D6EDEB /* list-item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-item.png"; sourceTree = "<group>"; };
+		8800D20418F06CBE00D6EDEB /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		8800D20518F06CBE00D6EDEB /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		8800D20718F06D3400D6EDEB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8800D20918F06D4300D6EDEB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8800D20B18F06E3B00D6EDEB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		8800D20D18F06E7C00D6EDEB /* FaceBookShareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaceBookShareButton.png; sourceTree = "<group>"; };
+		8800D20E18F06E7C00D6EDEB /* TwitterShareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitterShareButton.png; sourceTree = "<group>"; };
+		880509FE18F075630015069E /* GreenNavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GreenNavBar.png; path = ../../../Desktop/images/GreenNavBar.png; sourceTree = "<group>"; };
+		88050A0018F075730015069E /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		88050A0218F0757E0015069E /* 63-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "63-runner.png"; sourceTree = "<group>"; };
+		88050A0418F075A80015069E /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		88050A0618F076180015069E /* TheTabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TheTabBar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8800D20A18F06D4300D6EDEB /* Social.framework in Frameworks */,
+				8800D20818F06D3400D6EDEB /* MessageUI.framework in Frameworks */,
+				5669C112154FCA770092D780 /* CoreLocation.framework in Frameworks */,
+				5669C110154FCA6D0092D780 /* MapKit.framework in Frameworks */,
 				5669C0EF154FC64F0092D780 /* UIKit.framework in Frameworks */,
 				5669C0F1154FC64F0092D780 /* Foundation.framework in Frameworks */,
 				5669C0F3154FC64F0092D780 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +88,8 @@
 		5669C0DF154FC64F0092D780 = {
 			isa = PBXGroup;
 			children = (
+				5669C111154FCA770092D780 /* CoreLocation.framework */,
+				5669C10F154FCA6D0092D780 /* MapKit.framework */,
 				5669C0F4154FC64F0092D780 /* GooglePlaces */,
 				5669C0ED154FC64F0092D780 /* Frameworks */,
 				5669C0EB154FC64F0092D780 /* Products */,
@@ -59,7 +99,7 @@
 		5669C0EB154FC64F0092D780 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5669C0EA154FC64F0092D780 /* GooglePlaces.app */,
+				5669C0EA154FC64F0092D780 /* FindItNearMe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +107,8 @@
 		5669C0ED154FC64F0092D780 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8800D20918F06D4300D6EDEB /* Social.framework */,
+				8800D20718F06D3400D6EDEB /* MessageUI.framework */,
 				5669C0EE154FC64F0092D780 /* UIKit.framework */,
 				5669C0F0154FC64F0092D780 /* Foundation.framework */,
 				5669C0F2154FC64F0092D780 /* CoreGraphics.framework */,
@@ -77,11 +119,25 @@
 		5669C0F4154FC64F0092D780 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
+				8800D20D18F06E7C00D6EDEB /* FaceBookShareButton.png */,
+				88050A0618F076180015069E /* TheTabBar.png */,
+				88050A0418F075A80015069E /* map.png */,
+				88050A0218F0757E0015069E /* 63-runner.png */,
+				8800D20E18F06E7C00D6EDEB /* TwitterShareButton.png */,
+				880509FE18F075630015069E /* GreenNavBar.png */,
+				88050A0018F075730015069E /* home.png */,
+				8800D20B18F06E3B00D6EDEB /* button.png */,
+				8800D20218F06A8000D6EDEB /* list-item.png */,
 				5669C0FD154FC64F0092D780 /* AppDelegate.h */,
 				5669C0FE154FC64F0092D780 /* AppDelegate.m */,
 				5669C100154FC64F0092D780 /* MainStoryboard.storyboard */,
 				5669C103154FC64F0092D780 /* ViewController.h */,
 				5669C104154FC64F0092D780 /* ViewController.m */,
+				8800D20418F06CBE00D6EDEB /* ShareViewController.h */,
+				8800D20518F06CBE00D6EDEB /* ShareViewController.m */,
+				56E5594815569D4D00C1177A /* MapPoint.h */,
+				56E5594915569D4D00C1177A /* MapPoint.m */,
+				8800D20018F06A5F00D6EDEB /* Images.xcassets */,
 				5669C0F5154FC64F0092D780 /* Supporting Files */,
 			);
 			path = GooglePlaces;
@@ -115,7 +171,7 @@
 			);
 			name = GooglePlaces;
 			productName = GooglePlaces;
-			productReference = 5669C0EA154FC64F0092D780 /* GooglePlaces.app */;
+			productReference = 5669C0EA154FC64F0092D780 /* FindItNearMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,8 +204,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88050A0318F0757E0015069E /* 63-runner.png in Resources */,
+				88050A0718F076180015069E /* TheTabBar.png in Resources */,
+				8800D20318F06A8000D6EDEB /* list-item.png in Resources */,
+				8800D20C18F06E3B00D6EDEB /* button.png in Resources */,
+				88050A0118F075730015069E /* home.png in Resources */,
+				880509FF18F075630015069E /* GreenNavBar.png in Resources */,
+				88050A0518F075A80015069E /* map.png in Resources */,
+				8800D20118F06A5F00D6EDEB /* Images.xcassets in Resources */,
 				5669C0F9154FC64F0092D780 /* InfoPlist.strings in Resources */,
 				5669C102154FC64F0092D780 /* MainStoryboard.storyboard in Resources */,
+				8800D21018F06E7C00D6EDEB /* TwitterShareButton.png in Resources */,
+				8800D20F18F06E7C00D6EDEB /* FaceBookShareButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +229,8 @@
 				5669C0FB154FC64F0092D780 /* main.m in Sources */,
 				5669C0FF154FC64F0092D780 /* AppDelegate.m in Sources */,
 				5669C105154FC64F0092D780 /* ViewController.m in Sources */,
+				8800D20618F06CBE00D6EDEB /* ShareViewController.m in Sources */,
+				56E5594A15569D4D00C1177A /* MapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,10 +304,12 @@
 		5669C109154FC64F0092D780 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GooglePlaces/GooglePlaces-Prefix.pch";
 				INFOPLIST_FILE = "GooglePlaces/GooglePlaces-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FindItNearMe;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,10 +317,12 @@
 		5669C10A154FC64F0092D780 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GooglePlaces/GooglePlaces-Prefix.pch";
 				INFOPLIST_FILE = "GooglePlaces/GooglePlaces-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FindItNearMe;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -274,6 +346,7 @@
 				5669C10A154FC64F0092D780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
